@@ -1,4 +1,4 @@
-﻿namespace LogicalProgram
+﻿namespace AddressBookSystems
 {
     class Program
     {
@@ -6,6 +6,10 @@
         {
             Console.WriteLine("Welcome to AddressBookSystems");
 
+            UC2_AddDetails addDetails = new UC2_AddDetails();
+            addDetails.EnterInput();
+            addDetails.ViewTheDetails();
+            //addDetails.PrintTheDetails();
         }
     }
 }
