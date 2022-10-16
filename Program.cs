@@ -6,10 +6,13 @@
         {
             Console.WriteLine("Welcome to AddressBookSystems");
 
-            UC2_AddDetails addDetails = new UC2_AddDetails();
-            addDetails.EnterInput();
-            addDetails.ViewTheDetails();
+           UC2_AddDetails addDetails = new UC2_AddDetails();
+           addDetails.EnterInput();
+           addDetails.ViewTheDetails();
             //addDetails.PrintTheDetails();
+
+            UC3_EditDetails editDetails = new UC3_EditDetails();
+            editDetails.EditUsingName();
         }
     }
 }
